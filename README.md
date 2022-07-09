@@ -61,7 +61,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.smidrange;
+})();
 })();
 </script>
 ```
@@ -175,6 +177,7 @@ var v = smidrange.ndarray( N, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-smidrange@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -188,6 +191,7 @@ console.log( x );
 var v = smidrange( x.length, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -287,21 +291,21 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [mid-range]: https://en.wikipedia.org/wiki/Mid-range
 
-[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd/tree/umd
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmidrange]: https://github.com/stdlib-js/stats-base-dmidrange/tree/umd
+[@stdlib/stats/base/dmidrange]: https://github.com/stdlib-js/stats-base-dmidrange/tree/umd/tree/umd
 
-[@stdlib/stats/base/smax]: https://github.com/stdlib-js/stats-base-smax/tree/umd
+[@stdlib/stats/base/smax]: https://github.com/stdlib-js/stats-base-smax/tree/umd/tree/umd
 
-[@stdlib/stats/base/smean]: https://github.com/stdlib-js/stats-base-smean/tree/umd
+[@stdlib/stats/base/smean]: https://github.com/stdlib-js/stats-base-smean/tree/umd/tree/umd
 
-[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats-base-smin/tree/umd
+[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats-base-smin/tree/umd/tree/umd
 
-[@stdlib/stats/base/srange]: https://github.com/stdlib-js/stats-base-srange/tree/umd
+[@stdlib/stats/base/srange]: https://github.com/stdlib-js/stats-base-srange/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
