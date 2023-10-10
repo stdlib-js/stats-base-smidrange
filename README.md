@@ -52,6 +52,11 @@ The [**mid-range**][mid-range], or **mid-extreme**, is the arithmetic mean of th
 To use in Observable,
 
 ```javascript
+smidrange = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-smidrange@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-smidrange/tags). For example,
+
+```javascript
 smidrange = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-smidrange@v0.1.1-umd/browser.js' )
 ```
 
@@ -64,7 +69,7 @@ var smidrange = require( 'path/to/vendor/umd/stats-base-smidrange/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-smidrange@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-smidrange@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -183,7 +188,7 @@ var v = smidrange.ndarray( N, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-smidrange@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-smidrange@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
