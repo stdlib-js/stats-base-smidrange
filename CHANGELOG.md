@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-14)
+## Unreleased (2025-02-19)
 
 <section class="features">
 
@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`3c92159`](https://github.com/stdlib-js/stdlib/commit/3c92159d01e942d49410fbcf5f9cfb2454c90b44) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`b00d9f1`](https://github.com/stdlib-js/stdlib/commit/b00d9f1064701187f48a05b9753e74ae835b0726) - **docs:** fix typing error in `repl.txt` of `stats/base/*` [(#4750)](https://github.com/stdlib-js/stdlib/pull/4750) _(by Aayush Khanna)_
 -   [`5ae1285`](https://github.com/stdlib-js/stdlib/commit/5ae1285fcb414a7d926c303353c9f80b27e675e6) - **fix:** address precision regression and fix benchmark dtypes _(by Athan Reines)_
 -   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - **fix:** wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646) _(by Aayush Khanna)_
